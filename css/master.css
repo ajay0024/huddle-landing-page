@@ -1,0 +1,109 @@
+:root {
+  --voilet: hsl(257, 40%, 49%);
+  --soft_magenta: hsl(300, 69%, 71%);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: no-repeat var(--voilet) url("../images/bg-mobile.svg");
+  background-size: contain;
+  padding: 2em;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  height: 8vw;
+  width: auto;
+  max-height: 50px;
+  align-self: flex-start;
+  padding-bottom: 4rem;
+}
+
+.main-img {
+  width: 100%;
+  object-fit: contain;
+  padding-bottom: 2.5rem;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+p {
+  font-weight: 400;
+}
+
+.btn {
+  padding: 1em 5em;
+  color: var(--voilet);
+  background-color: white;
+  outline: none;
+  border: none;
+  border-radius: 4rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 3rem;
+}
+
+.btn:hover {
+  background-color: var(--soft_magenta);
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+}
+
+i {
+  width: 16px;
+  height: 16px;
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 7px;
+  margin: 3px;
+}
+
+i:hover {
+  color: var(--soft_magenta);
+  border-color: var(--soft_magenta);
+  cursor: pointer;
+}
+
+@media screen and (min-width:800px) {
+  .logo {
+    padding-bottom: 1rem;
+  }
+
+  body {
+    background-image: url("../images/bg-desktop.svg")
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .right {
+    padding-left: 5rem;
+    width: 80%;
+    text-align: left;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .main-img {
+    padding-bottom: 0;
+  }
+}
