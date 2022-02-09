@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ajay0024/huddle-landing-page)
-- Live Site URL: [Add live site URL here](https://ajay0024.github.io/huddle-landing-page/)
+- Solution URL: [Link to Github Solution](https://github.com/ajay0024/huddle-landing-page)
+- Live Site URL: [Preview Live](https://ajay0024.github.io/huddle-landing-page/)
 ## My process
 I build with mobile first workflow. It was an easy layout and I mostly used flex for layout.
 ### Built with
